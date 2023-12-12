@@ -16,6 +16,7 @@ var lastfm = new LastFmNode({
 
   trackStream.on('nowPlaying', function(track) {
     console.log('Now playing: ' + track.name);
+    console.log(track.album)
     if (last_play != track.name) {
         last_play = track.name;
         //add song to DB
