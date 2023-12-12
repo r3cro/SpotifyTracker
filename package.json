@@ -11,8 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "lastfm": "^0.9.4",
     "nodemon": "^3.0.2",
-    "spotify-web-api-js": "^1.5.2"
+    "query-string": "^8.1.0",
+    "spotify-web-api-js": "^1.5.2",
+    "stringify": "^5.2.0",
+    "superagent": "^8.1.2"
   }
 }
